@@ -1,0 +1,15 @@
+.button::after{
+    content: "PASA POR ENCIMA";
+}
+
+.button:hover{
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.button:hover::after{
+    content: "HECHO!";
+}
